@@ -19,6 +19,8 @@
 
     NSLog(@"初始化项目代码");
     
+    NSLog(@"同事加入了开发的队伍");
+    
 }
 
 - (void)didReceiveMemoryWarning {
