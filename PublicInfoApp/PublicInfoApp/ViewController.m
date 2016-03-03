@@ -20,6 +20,8 @@
     NSLog(@"初始化项目代码");
     NSLog(@"欢迎同事加入开发的队伍");
     
+    NSLog(@"同事加入了开发的队伍");
+    
 }
 
 - (void)didReceiveMemoryWarning {
