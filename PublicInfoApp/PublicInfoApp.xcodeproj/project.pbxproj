@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		615857D21C87D4E700441314 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 615857D11C87D4E700441314 /* Dog.m */; };
 		61C824DB1C87D21000844A86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C824DA1C87D21000844A86 /* main.m */; };
 		61C824DE1C87D21000844A86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C824DD1C87D21000844A86 /* AppDelegate.m */; };
 		61C824E11C87D21000844A86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C824E01C87D21000844A86 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		615857D01C87D4E700441314 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		615857D11C87D4E700441314 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		61C824D61C87D21000844A86 /* PublicInfoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicInfoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C824DA1C87D21000844A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61C824DC1C87D21000844A86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				61C824E71C87D21000844A86 /* LaunchScreen.storyboard */,
 				61C824EA1C87D21000844A86 /* Info.plist */,
 				61C824D91C87D21000844A86 /* Supporting Files */,
+				615857D01C87D4E700441314 /* Dog.h */,
+				615857D11C87D4E700441314 /* Dog.m */,
 			);
 			path = PublicInfoApp;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				61C824E11C87D21000844A86 /* ViewController.m in Sources */,
 				61C824DE1C87D21000844A86 /* AppDelegate.m in Sources */,
+				615857D21C87D4E700441314 /* Dog.m in Sources */,
 				61C824DB1C87D21000844A86 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				61C825051C87D21000844A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61C825061C87D21000844A86 /* Build configuration list for PBXNativeTarget "PublicInfoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				61C825081C87D21000844A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61C825091C87D21000844A86 /* Build configuration list for PBXNativeTarget "PublicInfoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				61C8250B1C87D21000844A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
